@@ -1,0 +1,27 @@
+Word Guessing Game
+Welcome to the Word Guessing Game! 🎉
+
+Overview
+This is a simple command-line word guessing game written in Python. The objective is to guess a randomly selected 5-letter word within a limited number of attempts.
+
+How to Play:
+
+Start the Game:
+When you run the script, a random 5-letter word will be chosen.
+
+Guess the Word:
+You have 7 attempts to guess the correct word.
+Each guess should be a 5-letter word composed of alphabetic characters only.
+
+Feedback:
+After each guess, you will receive feedback using symbols:
+✔️ - Correct letter in the correct position.
+❓ - Correct letter but in the wrong position.
+◼️ - Incorrect letter.
+
+Winning:
+If you guess the word correctly, you will receive a congratulatory message based on the number of attempts left.
+The game will end immediately upon guessing the correct word.
+
+Losing:
+If you exhaust all 7 attempts without guessing the correct word, the game will reveal the correct word and end.
